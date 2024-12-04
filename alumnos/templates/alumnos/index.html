@@ -1,0 +1,10 @@
+<html>
+<body>
+    <h1>Páginas de los Alumnos</h1>
+    <ul>
+        {% for link in links %}
+            <li><a href="{{ link.url }}">{{ link.name }}</a></li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
